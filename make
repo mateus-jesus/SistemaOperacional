@@ -5,7 +5,6 @@ mkdir -p build
 PS4='• '
 set -x
 
-
 # -----------------------------------------------------------------------------
 # Bootloader build
 # -----------------------------------------------------------------------------
@@ -36,5 +35,3 @@ mcopy -i build/lost.img build/kernel.bin "::kernel.bin"
 
 # Listar arquivos da imagem...
 mdir -i build/lost.img
-
-
